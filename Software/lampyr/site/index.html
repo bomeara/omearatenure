@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Lampyr</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel='apple-touch-icon' href='images/icon.png'>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33369496-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<img src="images/icon.png" alt="Logo" id="logo" />
+				<ul id="nav">
+					<li class="active"><a href="http://www.lampyr.org">Home</a></li>
+					<li><a href="http://www.brianomeara.info">About Us</a></li>
+					<li><a href="http://www.lampyr.org/app">App</a></li>
+				</ul>
+			</div>
+			<div id="masthead">
+				<h2>Lampyr biodiversity app</h2>
+				<p id="intro">Lampyr is a web app that presents information on the biodiversity all around us. 
+				The framework was made by <a href="http://www.brianomeara.info">Brian O'Meara</a>, an assistant 
+				professor in the department of <a href="http://eeb.bio.utk.edu/">Ecology and Evolutionary Biology</a>
+				at the <a href="http://www.utk.edu">University of Tennessee, Knoxville</a> in order to better 
+				teach an intro biodiversity class, Bio130. An important feature of the app is that students, 
+				many of them freshmen, will contribute information about individual species as mini-essays over 
+				the semester. This will serve the same purpose as traditional assignments that teach students
+				how to do research, how to cite, etc. while at the same time making sure their work can benefit others.</p>
+				
+				
+				
+				<a href="http://www.lampyr.org/app" class="green-button">Go to app &raquo;</a>
+				<img src="images/phones.png" alt="Phones" id="phones" />
+			</div>
+			<div id="blue-bar">
+			<!--could add navigation elements here. Use <ul> followed by <li>link</li> for the links -->
+			</div>
+			<div id="main">
+				<div id="content">
+				<h3>Details</h3>
+					<p>This app is actively in development, with coding only starting on Dec. 20, 2011, so it lacks all planned features. It uses a simple MySQL database and PHP back end and
+				jQuery Mobile front end. Source code is available <a href="http://code.google.com/p/lampyr/">here</a>
+				and we're quite open to having other developers (contact <a href="mailto:bomeara@utk.edu">bomeara@utk.edu</a>).
+				A hope is that in the future other instructors may adopt this app and have their classes improve it, too.
+				Data has come from Genbank, LifeMapper, GBIF (only those records that are permitted to be downloaded and rehosted), and the <a href="http://www.dlia.org/atbi/">All Taxa Biodiversity Inventory</a>,
+				which is working to inventory all species in Great Smoky Mountains National Park. 
+				Code from Rod Page's <a href="http://ispecies.org">iSpecies</a> has been modified for Wikipedia parsing.
+				The name "<b>Lampyr</b>"
+				comes from <b>Lampyr</b>idae, the clade of beetles better known as "fireflies." Great Smoky Mountains
+				National Park is famous for its remarkable <a href="http://www.nps.gov/grsm/naturescience/fireflies.htm">synchronized
+				fireflies</a>. The icon image comes from a photo by <a href="http://www.frfly.com/">Terry Priest</a>, released
+				under a Creative Commons Attribution-Share Alike license.</p>
+			
+									
+				</div>
+				<div id="sidebar">
+					<script src="http://www.google.com/jsapi?key=ABQIAAAAtMHDuQXJCnjYm2C1nuC0gxSczyeoqU3FyIEgdqgBbCGSZVZCWhRpwFpi48ThvCTkBUIPbcToNIk8Eg"></script>
+    <script type="text/javascript">
+    /*
+    *  How to use the Feed Control to grab, parse and display feeds.
+    */
+    
+    google.load("feeds", "1");
+    
+    function OnLoad() {
+      // Create a feed control
+      var feedControl = new google.feeds.FeedControl();
+    
+      // Add two feeds.
+      feedControl.addFeed("http://code.google.com/feeds/p/lampyr/updates/basic", "Lampyr recent changes");
+      
+    
+      // Draw it.
+      feedControl.draw(document.getElementById("feedcontent"));
+    }
+    
+    google.setOnLoadCallback(OnLoad);
+    </script>
+
+   <div id="feedcontent">Loading...</div>
+					
+					
+					
+				</div>
+			</div>
+			<div id="footer">
+				<div class="f-left"><img src="images/cc.gif" alt="Creative Commons" /></div>
+				<div class="f-right">Design by <a href="http://fearlessflyer.com">Fearlessflyer.com</a>. Coded by <a href="http://www.themelab.com">Theme Lab</a></div>
+			</div>
+		</div>
+	</body>
+</html>

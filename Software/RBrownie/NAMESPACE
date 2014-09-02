@@ -1,0 +1,22 @@
+#----------------------------------------------------------------------
+useDynLib(RBrownie)
+exportPattern("^[[:alpha:]]+")
+#exportPattern("^[^(\\.|addcmd)]")
+importClassesFrom( Rcpp, "C++ObjectS3", "C++Object", "C++Class", "Module" )
+#----------------------------------------------------------------------
+
+import(methods)
+import(phylobase) # need virtually everything from this package
+#importFrom(graphics, plot)
+importFrom(ape,checkLabel)
+
+#----------------------------------------------------------------------
+# classes and constructors
+exportClasses(phylo4d_ext, brownie)
+exportMethods(phyext,brownie)
+
+#----------------------------------------------------------------------
+
+# test functions:
+
+
